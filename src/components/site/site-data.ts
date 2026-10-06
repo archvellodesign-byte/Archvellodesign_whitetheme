@@ -16,7 +16,7 @@ export const projects: Project[] = [
   {
     slug: "meridian-grand-hotel",
     img: "/img/p1.jpg",
-    title: "Meridian Grand Hotel",
+    title: "",
     cat: "hospitality",
     label: "Hospitality",
     location: "Dubai, UAE",
@@ -34,7 +34,7 @@ export const projects: Project[] = [
   {
     slug: "northline-corporate-campus",
     img: "/img/p2.jpg",
-    title: "Northline Corporate Campus",
+    title: "",
     cat: "commercial",
     label: "Commercial",
     location: "London, UK",
@@ -52,7 +52,7 @@ export const projects: Project[] = [
   {
     slug: "civic-centre-bim-delivery",
     img: "/img/p3.jpg",
-    title: "Civic Centre BIM Delivery",
+    title: "",
     cat: "bim",
     label: "BIM",
     location: "Singapore",
@@ -70,7 +70,7 @@ export const projects: Project[] = [
   {
     slug: "casa-lumiere-residence",
     img: "/img/p4.jpg",
-    title: "Casa Lumière Residence",
+    title: "",
     cat: "residential",
     label: "Residential",
     location: "Côte d'Azur, France",
@@ -118,25 +118,25 @@ export const posts = [
 export const roles = [
   {
     title: "Senior BIM Coordinator",
-    location: "London · Hybrid",
+    location: "Remote · India",
     type: "Full-time",
     text: "Lead federated model coordination for large hospitality and commercial projects.",
   },
   {
     title: "Architectural Technologist",
-    location: "Remote · EU",
+    location: "Remote · India",
     type: "Full-time",
     text: "Produce tender and construction packages to RIBA and AIA standards.",
   },
   {
     title: "3D Visualization Artist",
-    location: "Dubai · On-site",
+    location: "Remote · India",
     type: "Full-time",
     text: "Craft photoreal stills and walkthroughs in 3ds Max, Corona and Unreal Engine.",
   },
   {
     title: "Interior Detailer",
-    location: "Singapore · Hybrid",
+    location: "Remote · India",
     type: "Contract",
     text: "Detail joinery, ceilings and finishes packages for hotel and workplace interiors.",
   },

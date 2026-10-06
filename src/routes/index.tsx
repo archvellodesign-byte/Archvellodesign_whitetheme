@@ -32,33 +32,35 @@ export const Route = createFileRoute("/")({
 const services = [
   {
     num: "01",
+    title: "Interior Documentation",
+    text: "Detailing and coordination for hospitality and workplace interiors, from concept package to tender-ready drawings.",
+   
+  },
+  {
+    num: "02",
     title: "Architecture Documentation",
     text: "Full construction documentation sets produced in BIM and CAD, aligned with AIA and RIBA standards for large-scale developments.",
   },
   {
-    num: "02",
-    title: "Interior Documentation",
-    text: "Detailing and coordination for hospitality and workplace interiors, from concept package to tender-ready drawings.",
+    num: "03",
+     title: "3D Visualization",
+    text: "Photoreal interior and exterior renders, walkthroughs and flythroughs crafted in 3ds Max and Unreal Engine.",
+   
   },
   {
-    num: "03",
+    num: "04",
+    title: "Scan to BIM",
+    text: "Point-cloud conversion into accurate as-built models for retrofit, restoration and facility management workflows.",
+  },
+  {
+    num: "05",
     title: "BIM Consultancy",
     text: "LOD 100–500 modelling, clash detection, BEP authoring and model audits delivered by a dedicated BIM team.",
   },
   {
-    num: "04",
+    num: "06",
     title: "MEPF Coordination",
     text: "Integrated engineering modelling, documentation and multi-discipline coordination using industry-leading toolsets.",
-  },
-  {
-    num: "05",
-    title: "3D Visualization",
-    text: "Photoreal interior and exterior renders, walkthroughs and flythroughs crafted in 3ds Max and Unreal Engine.",
-  },
-  {
-    num: "06",
-    title: "Scan to BIM",
-    text: "Point-cloud conversion into accurate as-built models for retrofit, restoration and facility management workflows.",
   },
 ];
 
@@ -82,10 +84,10 @@ function Index() {
         <div className="container">
           <div className="row text-center g-4 reveal">
             {[
-              ["480+", "Specialists"],
-              ["2,900", "Projects Delivered"],
-              ["31", "Countries"],
-              ["18", "Years of Practice"],
+              ["20+", "Specialists"],
+              ["200+", "Projects Delivered"],
+              ["5", "Countries"],
+              ["8+", "Years of Practice"],
             ].map(([n, l]) => (
               <div className="col-6 col-md-3 stat" key={l}>
                 <div className="num">{n}</div>
@@ -288,7 +290,7 @@ function Index() {
       </section>
 
       {/* About */}
-      <section>
+      <section className="pb-3">
         <div className="container">
           <div className="row g-5 align-items-center">
             <div className="col-lg-6 reveal">

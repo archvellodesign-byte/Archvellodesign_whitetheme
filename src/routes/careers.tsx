@@ -40,8 +40,9 @@ function CareersPage() {
               <h2 className="mb-3">Now hiring</h2>
               <div className="rule mb-4"></div>
               <p className="text-muted-2">
-                Don't see your role? Send a portfolio and we'll keep you in mind for the
-                next opening.
+                {/* Don't see your role? Send a portfolio and we'll keep you in mind for the
+                next opening. */}
+                We’re always interested in connecting with creative minds who share our passion for architecture, innovation, and thoughtful design. Send us your portfolio, and let's explore the possibilities of working together.
               </p>
               <Link className="btn btn-ghost mt-2" to="/contact">
                 Send an open application

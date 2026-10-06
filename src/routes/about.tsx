@@ -77,10 +77,10 @@ function AboutPage() {
         <div className="container">
           <div className="row text-center g-4 reveal">
             {[
-              ["480+", "Specialists"],
-              ["2,900", "Projects Delivered"],
-              ["31", "Countries"],
-              ["18", "Years of Practice"],
+              ["20+", "Specialists"],
+              ["200+", "Projects Delivered"],
+              ["5", "Countries"],
+              ["8+", "Years of Practice"],
             ].map(([n, l]) => (
               <div className="col-6 col-md-3 stat" key={l}>
                 <div className="num">{n}</div>

@@ -198,17 +198,6 @@ export function SiteHeader() {
                       <p className="mega-services__text">{servicesMega.intro.text}</p>
                     </div>
                     <div className="col-6 col-lg-3">
-                      <p className="mega-heading">Architectural Drafting</p>
-                      <ul className="mega-plain">
-                        {servicesMega.architectural.map((item) => (
-                          <li key={item}>{item}</li>
-                        ))}
-                      </ul>
-                      <Link className="mega-explore" to="/" hash="services">
-                        Explore Architectural Drafting →
-                      </Link>
-                    </div>
-                    <div className="col-6 col-lg-3">
                       <p className="mega-heading">Interior Drafting</p>
                       <ul className="mega-plain">
                         {servicesMega.interior.map((item) => (
@@ -219,6 +208,18 @@ export function SiteHeader() {
                         Explore Interior Drafting →
                       </Link>
                     </div>
+                    <div className="col-6 col-lg-3">
+                      <p className="mega-heading">Architectural Drafting</p>
+                      <ul className="mega-plain">
+                        {servicesMega.architectural.map((item) => (
+                          <li key={item}>{item}</li>
+                        ))}
+                      </ul>
+                      <Link className="mega-explore" to="/" hash="services">
+                        Explore Architectural Drafting →
+                      </Link>
+                    </div>
+                    
                     <div className="col-lg-3 d-none d-lg-block">
                       <Link className="mega-card" to="/" hash="services">
                         <img
