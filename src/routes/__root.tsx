@@ -79,15 +79,24 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Archvello Design" },
-      { name: "description", content: "Architecture, interiors and BIM documentation studio." },
+      { title: "Archvello Design | Architecture & Interior Design" },
+      {
+        name: "description",
+        content:
+          "Explore Archvello Design's architecture and interior design projects, services, and creative approach to designing spaces.",
+      },
       { name: "author", content: "Archvello Design" },
-      { property: "og:title", content: "Archvello Design" },
-      { property: "og:description", content: "Architecture, interiors and BIM documentation studio." },
+      { property: "og:title", content: "Archvello Design | Architecture & Interior Design" },
+      {
+        property: "og:description",
+        content:
+          "Explore Archvello Design's architecture and interior design projects, services, and creative approach to designing spaces.",
+      },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [
+      { rel: "canonical", href: "https://www.archvellodesign.com/" },
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       {
         rel: "preconnect",
