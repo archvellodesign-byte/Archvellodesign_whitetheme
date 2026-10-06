@@ -144,31 +144,31 @@ export const roles = [
 
 export const team = [
   {
-    img: "/img/t1.jpg",
-    name: "Elena Marchetti",
+    img: "/img/t2.jpg",
+    name: "Harish Malik",
     role: "Founding Principal",
-    email: "elena@archvello.com",
+    email: "harishmalik@archvellodesign.com",
     text: "Leads design direction and client engagement across hospitality and civic work.",
   },
   {
     img: "/img/t2.jpg",
-    name: "Daniel Fischer",
+    name: "Shahnawaz Saifi",
     role: "Director of BIM",
-    email: "daniel@archvello.com",
+    email: "shahnawazsaifi@archvellodesign.com",
     text: "Authors BEPs and runs ISO 19650 information delivery on multi-consultant projects.",
   },
   {
     img: "/img/t3.jpg",
-    name: "Priya Raghunathan",
+    name: "Bushra Khan",
     role: "Head of Documentation",
-    email: "priya@archvello.com",
+    email: "bushra@archvellodesign.com",
     text: "Oversees tender and construction packages, standards and drawing QA.",
   },
   {
     img: "/img/t4.jpg",
-    name: "Marcus Okonkwo",
+    name: "Shuaib Malik",
     role: "Visualization Lead",
-    email: "marcus@archvello.com",
+    email: "shuaibmalik@archvellodesign.com",
     text: "Directs photoreal stills, animation and real-time walkthroughs for competitions.",
   },
 ];
@@ -178,18 +178,18 @@ export const testimonials = [
     quote:
       "They absorbed our templates and standards in a week. The packages came back reading exactly like our own drawings — only faster.",
     name: "Helena Voss",
-    role: "Associate Director, Northline Estates",
+    role: "Associate Director, India",
   },
   {
     quote:
       "Federated coordination was the calmest part of the programme. Zero rework packages on a three-building campus is unheard of for us.",
     name: "Adrian Cole",
-    role: "Project Director, Meridian Hospitality Group",
+    role: "Project Director, Dubai",
   },
   {
     quote:
       "1.2 million square feet scanned and modelled around a live civic building, delivered ahead of the handover date.",
     name: "Su-Lin Tan",
-    role: "Asset Manager, Civic Authority",
+    role: "Asset Manager, China",
   },
 ];

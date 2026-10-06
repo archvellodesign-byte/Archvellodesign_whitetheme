@@ -486,6 +486,55 @@ body {
     color: var(--accent);
 }
 
+.arch .social-row {
+    display: flex;
+    align-items: center;
+    gap: .75rem;
+    margin-top: 1.25rem;
+}
+
+.arch .social-btn {
+    width: 2.4rem;
+    height: 2.4rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid var(--line);
+    background: rgba(255, 255, 255, .6);
+    color: var(--paper);
+    transition: all .25s ease;
+}
+
+.arch .social-btn svg {
+    width: 15px;
+    height: 15px;
+    stroke: currentColor;
+    stroke-width: 1.8;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    fill: none;
+}
+
+.arch .social-btn svg path,
+.arch .social-btn svg rect,
+.arch .social-btn svg circle,
+.arch .social-btn svg line {
+    vector-effect: non-scaling-stroke;
+}
+
+.arch .social-btn:hover {
+    background: var(--accent-soft);
+    border-color: var(--accent);
+    color: var(--accent);
+    transform: translateY(-1px);
+}
+
+.arch .social-btn:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+}
+
 
 /* reveal */
 

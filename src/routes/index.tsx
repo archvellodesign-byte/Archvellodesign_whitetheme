@@ -84,13 +84,13 @@ function Index() {
         <div className="container">
           <div className="row text-center g-4 reveal">
             {[
-              ["20+", "Specialists"],
-              ["200+", "Projects Delivered"],
-              ["5", "Countries"],
-              ["8+", "Years of Practice"],
-            ].map(([n, l]) => (
+              ["20" , "+", "Specialists"],
+              ["200", "+", "Projects Delivered"],
+              ["5", "", "Countries"],
+              ["8", "+", "Years of Practice"],
+            ].map(([n, p, l]) => (
               <div className="col-6 col-md-3 stat" key={l}>
-                <div className="num">{n}</div>
+                <div className="num">{n}<span className="puls-text">{p}</span></div>
                 <div className="lbl">{l}</div>
               </div>
             ))}

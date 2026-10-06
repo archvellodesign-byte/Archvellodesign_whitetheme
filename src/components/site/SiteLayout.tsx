@@ -291,6 +291,49 @@ export function SiteHeader() {
 }
 
 export function SiteFooter() {
+  const socialLinks = [
+    {
+      label: "Instagram",
+      href: "https://www.instagram.com/archvellodesign",
+      icon: (
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+          <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+          <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+        </svg>
+      ),
+    },
+    {
+      label: "LinkedIn",
+      href: "https://www.linkedin.com/company/archvellodesign",
+      icon: (
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+          <rect x="2" y="9" width="4" height="12" />
+          <circle cx="4" cy="4" r="2" />
+        </svg>
+      ),
+    },
+    {
+      label: "X",
+      href: "https://x.com/archvellodesign",
+      icon: (
+        <svg viewBox="0 0 24 24" aria-hidden="true" style={{ fill: "currentColor", stroke: "none" }}>
+          <path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z" />
+        </svg>
+      ),
+    },
+    {
+      label: "Facebook",
+      href: "https://www.facebook.com/archvellodesign",
+      icon: (
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+        </svg>
+      ),
+    },
+  ];
+
   return (
     <footer>
       <div className="container">
@@ -305,7 +348,7 @@ export function SiteFooter() {
             </p>
           </div>
           <div className="col-6 col-md-3">
-            <p className="eyebrow mb-3">Navigate</p>
+            {/* <p className="eyebrow mb-3">Navigate</p>
             <div className="d-flex flex-column gap-2">
               <Link to="/">Home</Link>
               <Link to="/about">About</Link>
@@ -313,13 +356,29 @@ export function SiteFooter() {
               <Link to="/blog">Blog</Link>
               <Link to="/careers">Careers</Link>
               <Link to="/contact">Contact</Link>
-            </div>
+            </div> */}
           </div>
           <div className="col-6 col-md-4">
             <p className="eyebrow mb-3">Studio</p>
             <div className="d-flex flex-column gap-2">
               <span className="text-muted-2">42/13 Vijay-Park, Moujpur, New Delhi, India</span>
               <a href="mailto:info@archvellodesign.com">info@archvellodesign.com</a>
+            </div>
+
+            <div className="social-row" aria-label="Archvello Design on social media">
+              {socialLinks.map((item) => (
+                <a
+                  key={item.label}
+                  className="social-btn"
+                  href={item.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={`${item.label} — Archvello Design`}
+                  title={item.label}
+                >
+                  {item.icon}
+                </a>
+              ))}
             </div>
           </div>
         </div>
