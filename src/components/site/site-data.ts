@@ -151,7 +151,7 @@ export const team = [
     text: "Leads design direction and client engagement across hospitality and civic work.",
   },
   {
-    img: "/img/t7.png",
+    img: "/img/t4.jpg",
     name: "Shahnawaz Saifi",
     role: "Director of BIM",
     email: "shahnawaz@archvellodesign.com",
