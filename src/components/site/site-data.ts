@@ -144,31 +144,31 @@ export const roles = [
 
 export const team = [
   {
-    img: "/img/t2.jpg",
+    img: "/img/t5.jpeg",
     name: "Harish Malik",
     role: "Founding Principal",
-    email: "harishmalik@archvellodesign.com",
+    email: "harish@archvellodesign.com",
     text: "Leads design direction and client engagement across hospitality and civic work.",
   },
   {
-    img: "/img/t2.jpg",
+    img: "/img/t7.png",
     name: "Shahnawaz Saifi",
     role: "Director of BIM",
-    email: "shahnawazsaifi@archvellodesign.com",
+    email: "shahnawaz@archvellodesign.com",
     text: "Authors BEPs and runs ISO 19650 information delivery on multi-consultant projects.",
   },
   {
-    img: "/img/t3.jpg",
+    img: "/img/t6.png",
     name: "Bushra Khan",
     role: "Head of Documentation",
     email: "bushra@archvellodesign.com",
     text: "Oversees tender and construction packages, standards and drawing QA.",
   },
   {
-    img: "/img/t4.jpg",
+    img: "/img/t2.jpg",
     name: "Shuaib Malik",
     role: "Visualization Lead",
-    email: "shuaibmalik@archvellodesign.com",
+    email: "shuaib@archvellodesign.com",
     text: "Directs photoreal stills, animation and real-time walkthroughs for competitions.",
   },
 ];

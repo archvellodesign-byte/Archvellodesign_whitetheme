@@ -358,7 +358,7 @@ export function SiteFooter() {
               <Link to="/contact">Contact</Link>
             </div> */}
           </div>
-          <div className="col-6 col-md-4">
+          <div className="col-12 col-md-4">
             <p className="eyebrow mb-3">Studio</p>
             <div className="d-flex flex-column gap-2">
               <span className="text-muted-2">42/13 Vijay-Park, Moujpur, New Delhi, India</span>
